@@ -1,0 +1,11 @@
+Para executar basta seguir os passos:
+
+1 - fazer o clone do repositório abaixo: 
+
+"https://github.com/thiberiofm/backend-test/tree/teste"
+
+2 - Baixe o maven no SO que irá rodar o teste.
+
+3 -  Rode o script bash "./run_iti" no terminal.
+
+

@@ -122,7 +122,7 @@ public class LogService {
 		return mes;
 	}
 
-	private Double getMaiorGasto(List<ItemLog> itemsLog) {
+	public Double getMaiorGasto(List<ItemLog> itemsLog) {
 		
 		Double gastoMes = 0d;
 		for(ItemLog item : itemsLog) {
@@ -134,7 +134,7 @@ public class LogService {
 		return gastoMes;
 	}
 
-	private Double getMaiorReceita(List<ItemLog> itemsLog) {
+	public Double getMaiorReceita(List<ItemLog> itemsLog) {
 		Double ganhoMes = 0d;
 		for(ItemLog item : itemsLog) {
 			if(item.getValor() > 0) {
@@ -145,7 +145,7 @@ public class LogService {
 		return ganhoMes;
 	}
 
-	private Double getSaldoTotal(List<ItemLog> itemsLog) {
+	public Double getSaldoTotal(List<ItemLog> itemsLog) {
 		Double saldoTotal = 0d;
 		for(ItemLog item : itemsLog) {
 			saldoTotal = saldoTotal + item.getValor();

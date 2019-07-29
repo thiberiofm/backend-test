@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+mvn clean && mvn package
+
+ITI_JAR=$(ls -l $PWD/target | awk -F ' ' '{ print $9 }' | sort -r | head -n1)
+java -jar target/${ITI_JAR}
