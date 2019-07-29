@@ -2,7 +2,7 @@ Para executar basta seguir os passos:
 
 1 - fazer o clone do repositório abaixo: 
 
-"https://github.com/thiberiofm/backend-test/tree/teste"
+"https://github.com/thiberiofm/backend-test"
 
 2 - Baixe o maven no SO que irá rodar o teste.
 
