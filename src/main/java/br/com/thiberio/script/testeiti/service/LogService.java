@@ -60,7 +60,7 @@ public class LogService {
 		
 	}
 	
-	private String getCategoriaMaiorGasto(List<ItemLog> itemsLog) {
+	public String getCategoriaMaiorGasto(List<ItemLog> itemsLog) {
 		Map<String, Double> categoriasValor = new HashMap<String, Double>();
 
 		for(ItemLog item : itemsLog) {

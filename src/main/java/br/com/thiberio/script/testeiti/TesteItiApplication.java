@@ -15,7 +15,7 @@ public class TesteItiApplication {
 		try {
 			logService.processarLog(logService.extrairDadosTxt("compras.txt"));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 
