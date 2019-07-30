@@ -22,7 +22,6 @@ public class TesteItiApplicationTests {
 	@Test(expected = Exception.class)
 	public void leituraArquivoInexistente() throws IOException{
 		
-	//	LogService logservice = new LogService();
 		logservice.extrairDadosTxt("xxx.txt");
 				
 	}
@@ -74,7 +73,7 @@ public class TesteItiApplicationTests {
 		
 		String retorno = logservice.getMaiorGasto(items).toString();
 			
-		assertEquals("Encontrando o maior valos gasto","-1021.09" , retorno);
+		assertEquals("Encontrando o maior valor gasto","-1021.09" , retorno);
 	}
 
 	
@@ -101,7 +100,7 @@ public class TesteItiApplicationTests {
 		
 		String retorno = logservice.getMaiorReceita(items).toString();
 			
-		assertEquals("Encontrando o maior valos gasto","150.5" , retorno);
+		assertEquals("Encontrando a maior quantidade recebida","150.5" , retorno);
 	}
 	
 	
@@ -128,7 +127,7 @@ public class TesteItiApplicationTests {
 		
 		String retorno = logservice.getSaldoTotal(items).toString();
 			
-		assertEquals("Encontrando o maior valos gasto","-49.5" , retorno);
+		assertEquals("Encontrando o saldo total","-49.5" , retorno);
 	}
 	
 	
